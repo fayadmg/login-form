@@ -22,7 +22,7 @@ function Form(props) {
     <div>
       <h1>Welcome {inputText.name}</h1>
       <p>{inputText.email}</p>
-      <p>{inputText.password}</p>
+      {!props.isRegisterd && <p>{inputText.password}</p>}
       <form className="form">
         <input
           type="text"

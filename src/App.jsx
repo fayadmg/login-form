@@ -2,22 +2,7 @@ import { useState } from "react";
 import Form from "./components/Form";
 
 function App() {
-  const isTrue = false;
-  // const [text, setText] = useState({
-  //   name: "",
-  //   email: "",
-  //   password: ""
-  // });
-
-  // function handleChange(newText) {
-  //   const { name, value } = event.target;
-  //   setInputText((prevValue) => {
-  //     return {
-  //       ...prevValue,
-  //       [name]: value,
-  //     };
-  //   });
-  // }
+  const isTrue = true;
 
   return (
     <div className="container">
